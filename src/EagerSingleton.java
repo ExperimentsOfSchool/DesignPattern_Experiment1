@@ -9,4 +9,7 @@ public final class EagerSingleton {
     public static EagerSingleton getInstance() {
         return uniqueInstance;
     }
+    public void show() {
+        System.out.println("This is a Eager Singleton");
+    }
 }

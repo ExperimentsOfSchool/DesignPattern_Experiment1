@@ -12,4 +12,7 @@ public final class LazySingleton {
         }
         return uniqueInstance;
     }
+    public void show() {
+        System.out.println("This is a Lazy Singleton");
+    }
 }
